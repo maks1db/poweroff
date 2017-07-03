@@ -7,7 +7,7 @@ router.post('/poweroff', (req, res) => {
 
     // Create shutdown function
     function shutdown(callback){
-        exec('shutdown now', function(error, stdout, stderr){ callback(stdout); });
+        exec('poweroff', function(error, stdout, stderr){ callback(stdout); });
     }
 
     // Reboot computer
