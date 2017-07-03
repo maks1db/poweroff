@@ -9,7 +9,7 @@ const style = {
 export default class Index extends React.Component{
     constructor(){
         super();
-        document.title = 'Выключание домашнего сервера';
+        document.title = 'Выключение домашнего сервера';
     }
 
     render(){

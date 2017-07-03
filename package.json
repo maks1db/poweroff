@@ -1,6 +1,6 @@
 {
   "name": "poweroff",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Power off home server",
   "main": "index.js",
   "scripts": {
